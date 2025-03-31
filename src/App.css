@@ -1,0 +1,27 @@
+
+.app {
+  padding: 20px;
+  font-family: sans-serif;
+}
+.student-row {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+}
+.card {
+  background: #f2f2f2;
+  padding: 16px;
+  border-radius: 12px;
+  min-width: 200px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+button {
+  display: block;
+  margin-top: 6px;
+  padding: 6px 12px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
